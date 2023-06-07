@@ -40,11 +40,16 @@ export default function Home() {
             over 5 years experience in B2B sales.
           </p>
         </div>
-        <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-          <AiFillGithub
-          href="https://github.com/iam08160" />
-          <AiFillLinkedin />
-          <AiFillInstagram />
+        <div className="text-7xl flex justify-center gap-16 py-3 text-gray-600">
+          <a href="https://github.com/iam08160">
+          <AiFillGithub className="cursor-pointer" />
+          </a>
+          <a href="https://www.linkedin.com/in/ian-mackenzie-bb8960129/">
+          <AiFillLinkedin className="cursor-pointer " />
+          </a>
+          <a href="https://www.instagram.com/macksauce_/">
+          <AiFillInstagram className="cursor-pointer hover:" />
+          </a>
         </div>
         <div>
           <Image
@@ -60,7 +65,13 @@ export default function Home() {
       <section>
         <div>
           <h3 className="text-3xl py-1"> What I've Learned So Far</h3>
-          <p className=" text-md py-2 leading-8 text-gray-800"> I began my coding journey in January 2023, by means of Upright Educations Software Development Bootcamp. During that time, I created a solid foundation of key software development concepts, and became proficient in programming languages such as HTML, CSS, and most importatntly, JavaScript. Couple this with my knowledge of the React framework, as well as my server-side knowledge of MongoDB, Express, and Node.js, I can provide the full-stack developer experience you are looking for.</p>
+          <p className=" text-md py-2 leading-8 text-gray-800"> I began my coding journey in January 2023, by means of Upright Education's Software Development Bootcamp. During that time, I created a solid foundation of key software development concepts, and became proficient in programming languages such as HTML, CSS, and most importatntly, JavaScript. Couple this with my knowledge of the React framework, as well as my server-side knowledge of MongoDB, Express, and Node.js, I can provide the full-stack developer experience you are looking for.</p>
+        </div>
+      </section>
+      {/* projects */}
+      <section>
+        <div>
+          
         </div>
       </section>
     </main>
