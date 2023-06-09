@@ -1,12 +1,6 @@
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import {
-  AiFillGithub,
-  AiFillLinkedin,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
 import Image from "next/image";
-
-
 
 export default function Home() {
   return (
@@ -41,23 +35,26 @@ export default function Home() {
           </p>
         </div>
         <div className="text-7xl flex justify-center gap-16 py-3 text-gray-600">
-          <a href="https://github.com/iam08160">
-          <AiFillGithub className="cursor-pointer" />
+          <a href="https://github.com/iam08160" target="blank">
+            <AiFillGithub className="cursor-pointer" />
           </a>
-          <a href="https://www.linkedin.com/in/ian-mackenzie-bb8960129/">
-          <AiFillLinkedin className="cursor-pointer " />
+          <a
+            href="https://www.linkedin.com/in/ian-mackenzie-bb8960129/"
+            target="blank"
+          >
+            <AiFillLinkedin className="cursor-pointe" />
           </a>
-          <a href="https://www.instagram.com/macksauce_/">
-          <AiFillInstagram className="cursor-pointer hover:" />
+          <a href="https://www.instagram.com/macksauce_/" target="blank">
+            <AiFillInstagram className="cursor-pointer" />
           </a>
         </div>
         <div>
           <Image
-          className=" rounded-full w-100 h-100 mt-20 mx-auto"
-          src="/iandev.png"
-          width="700"
-          height="700"
-          style={{objectFit: "contain"}}
+            className=" rounded-full w-100 h-100 mt-20 mx-auto"
+            src="/iandev.png"
+            width="700"
+            height="700"
+            style={{ objectFit: "contain" }}
           />
         </div>
       </section>
@@ -65,13 +62,54 @@ export default function Home() {
       <section>
         <div>
           <h3 className="text-3xl py-1"> What I've Learned So Far</h3>
-          <p className=" text-md py-2 leading-8 text-gray-800"> I began my coding journey in January 2023, by means of Upright Education's Software Development Bootcamp. During that time, I created a solid foundation of key software development concepts, and became proficient in programming languages such as HTML, CSS, and most importatntly, JavaScript. Couple this with my knowledge of the React framework, as well as my server-side knowledge of MongoDB, Express, and Node.js, I can provide the full-stack developer experience you are looking for.</p>
+          <p className=" text-md py-2 leading-8 text-gray-800">
+            {" "}
+            I began my coding journey in January 2023, by means of Upright
+            Education's Software Development Bootcamp, completing the progam in
+            April of 2023. During that time, I created a solid foundation of key
+            software development concepts, and became proficient in programming
+            languages such as <span className="text-teal-500">HTML</span>, <span className="text-teal-500">CSS</span>, and most importantly, <span className="text-teal-500">JavaScript. </span> 
+            Couple this with my knowledge of the <span className="text-teal-500">React</span> framework, as well as my
+            server-side knowledge of <span className="text-teal-500">MongoDB</span>,<span className="text-teal-500"> Express </span>, and <span className="text-teal-500">Node.js</span>, I can
+            provide the full-stack developer experience you are looking for.
+          </p>
         </div>
       </section>
       {/* projects */}
       <section>
         <div>
-          
+          <h3 className="text-3xl py-6"> Projects I've Worked On</h3>
+          <h3 id="cosmable" className="text-5xl py-4">COSMABLE</h3>
+          <p className="text-md py-4 leading-8 text-gray-800">Part of Upright Education's curriculum involves working on a real-world capstone project during the final 4 weeks of the course. Our class was tasked with creating a fully functioning full-stack web application called Cosmable. Cosmable is designed for beauticians and aesteticians in the Chicago metropolitain area to upload and showcase their work. My role in this project involved creating an "Upload from Instagram" feature, so users could upload and save photos directly from their clinics Instagram page. I accomplished this by accessing Instagram's Basic Display API to fetch users posts, by means of a short-lived-access-token. </p>
+          <div className=" flex justify-center gap-5 py-3">
+          <div className=" mx-auto shadow-lg rounded-xl">
+            <Image
+            className="mx-auto py-10"
+            src="/Capture.png"
+            width="300"
+            height="300"
+            />
+          <p className="py-3">Created function to string-interpolate Instagram Basic Display query parameters.</p>
+          </div>
+          <div className=" mx-auto shadow-lg rounded-xl">
+            <Image
+            className="mx-auto rounded-xl"
+            src="/insta.png"
+            width="180"
+            height="180"
+            />
+            <p className="py-3">Redirect user to Instagram oAuth screen, initial fetch to API, useEffect used to call redirect function back to our application.</p>
+          </div>
+          <div className=" text-center shadow-lg rounded-xl">
+            <Image
+            className="mx-auto rounded-xl "
+            src="/select2.jpg"
+            width="100"
+            height="200"
+            />
+            <p className="py-3">useEffect implemented for selected photos, function written for uploading selected images.  </p>
+          </div>
+          </div>
         </div>
       </section>
     </main>
