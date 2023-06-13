@@ -8,6 +8,7 @@ import { useState } from "react";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
   return (
+
     <div className={darkMode ? "dark" : ""}>
       <main className="bg-white px-10 md:px-20 lg:px-30 dark:bg-gray-900">
         <section className="h-screen">
@@ -162,7 +163,7 @@ export default function Home() {
                 />
                 <p className="py-7 dark:text-white">
                   <span className="text-teal-500">Fetch</span> used to grab
-                  user's media using{" "}
+                  user's media using
                   <span className="text-teal-500">access-token</span>,
                   <span className="text-teal-500"> handleSelectedMedia</span>{" "}
                   function used to select desired images and store in
@@ -172,6 +173,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+        
+          <p className=" text-xs text-center text-white mt-12 ">Created by <span className="text-teal-500">learning</span> <span className="text-teal-500">Next.js</span> and <span className="text-teal-500">Tailwind</span></p>
+       
       </main>
     </div>
   );
