@@ -101,17 +101,17 @@ export default function Home() {
             creating an "Upload from Instagram" feature, so users could upload
             and save photos directly from their clinics Instagram page. I
             accomplished this by accessing <span className="text-teal-500">Instagram's Basic Display API</span> to 
-            <span className="text-teal-500"> fetch</span> users posts, by means of a <span className="text-teal-500">short-lived-access-token</span>.{" "}
+            <span className="text-teal-500"> fetch</span> users posts, by means of a <span className="text-teal-500">short-lived-access-token</span>.
           </p>
           <div className=" flex justify-center gap-5 py-3">
-            <div className=" mx-auto shadow-lg rounded-xl">
+            <div className=" mx-auto shadow-lg rounded-xl dark:m-w-3px ">
               <Image
-                className="mx-auto py-10"
-                src="/Capture.png"
+                className="mx-auto my-12 py-12 pl-6 pr-6 "
+                src="/upload.png"
                 width="300"
                 height="300"
               />
-              <p className="py-12 pl-3 my-3 dark:text-white">
+              <p className="py-15 pl-3 my-3 dark:text-white">
               <span className="text-teal-500 ">handleAuth</span> function created to handle Instagram's authentication
                 process via <span className="text-teal-500">string-interpolated query parameters.</span>
               </p>
