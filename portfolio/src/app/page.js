@@ -71,7 +71,7 @@ export default function Home() {
         {/* Main */}
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white">
+            <h3 className="text-3xl py-7 dark:text-white">
               
               What I've Learned So Far
             </h3>
@@ -161,7 +161,7 @@ export default function Home() {
                   height="200"
                 />
                 <p className="py-7 dark:text-white">
-                  <span className="text-teal-50">Fetch</span> used to grab
+                  <span className="text-teal-500">Fetch</span> used to grab
                   user's media using{" "}
                   <span className="text-teal-500">access-token</span>,
                   <span className="text-teal-500"> handleSelectedMedia</span>{" "}
