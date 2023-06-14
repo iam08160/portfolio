@@ -19,3 +19,7 @@
 #cosmable {
 font-family: Playfair Display;
 }
+
+body {
+  overflow-x: hidden;
+}
