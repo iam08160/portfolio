@@ -4,11 +4,9 @@ import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
 import Image from "next/image";
 import { useState } from "react";
 
-
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
   return (
-
     <div className={darkMode ? "dark" : ""}>
       <main className="bg-white px-10 md:px-20 lg:px-30 dark:bg-gray-900">
         <section className="h-screen">
@@ -36,7 +34,7 @@ export default function Home() {
               Ian MacKenzie
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
-              Developer and Sales Representative.
+              Software Developer and Sales Representative.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-7xl mx-auto dark:text-white">
               Innovative Software Developer offering experience in the full
@@ -73,7 +71,6 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-7 dark:text-white">
-              
               What I've Learned So Far
             </h3>
             <p className=" text-md py-2 leading-8 text-gray-800 dark:text-white">
@@ -86,8 +83,8 @@ export default function Home() {
               <span className="text-teal-500"> CSS</span>, and most importantly,
               <span className="text-teal-500"> JavaScript. </span>
               Couple this with my knowledge of the
-              <span className="text-teal-500"> React</span> framework, as well as
-              my server-side knowledge of
+              <span className="text-teal-500"> React</span> framework, as well
+              as my server-side knowledge of
               <span className="text-teal-500"> MongoDB</span>,
               <span className="text-teal-500"> Express </span>, and
               <span className="text-teal-500"> Node.js</span>, I can provide the
@@ -122,7 +119,7 @@ export default function Home() {
               means of a{" "}
               <span className="text-teal-500">short-lived-access-token</span>.
             </p>
-            <div className=" flex justify-center gap-5 py-3">
+            <div className="flex justify-center gap-5 py-3">
               <div className=" mx-auto shadow-lg rounded-xl dark:m-w-3px ">
                 <Image
                   className="mx-auto my-12 py-12 pl-6 pr-6 rounded-xl "
@@ -173,9 +170,12 @@ export default function Home() {
             </div>
           </div>
         </section>
-        
-          <p className=" text-xs text-center text-white mt-12 ">Created by <span className="text-teal-500">learning</span> <span className="text-teal-500">Next.js</span> and <span className="text-teal-500">Tailwind</span></p>
-       
+
+        <p className=" text-xs text-center text-white mt-12 ">
+          Created by <span className="text-teal-500">learning</span>{" "}
+          <span className="text-teal-500">Next.js</span> and{" "}
+          <span className="text-teal-500">Tailwind</span>
+        </p>
       </main>
     </div>
   );
