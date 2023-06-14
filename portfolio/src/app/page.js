@@ -34,7 +34,7 @@ export default function Home() {
               Ian MacKenzie
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
-              Software Developer and Sales Representative.
+              Software Developer | Sales Representative.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-7xl mx-auto dark:text-white">
               Innovative Software Developer offering experience in the full
@@ -101,7 +101,7 @@ export default function Home() {
             <h3 id="cosmable" className="text-5xl py-10 dark:text-white">
               COSMABLE
             </h3>
-            <p className="text-md py-4 leading-8 text-gray-800 dark:text-white">
+            <p className="text-md py-4 mb-4 leading-8 text-gray-800 dark:text-white">
               Part of Upright Education's curriculum involves working on a
               real-world capstone project during the final 4 weeks of the
               course. Our class was tasked with creating a fully functioning
@@ -110,7 +110,7 @@ export default function Home() {
               to upload and showcase their work. My role in this project
               involved creating an "Upload from Instagram" feature, so users
               could upload and save photos directly from their clinics Instagram
-              page. I accomplished this by accessing{" "}
+              page. I accomplished this by accessing
               <span className="text-teal-500">
                 Instagram's Basic Display API
               </span>{" "}
@@ -119,7 +119,7 @@ export default function Home() {
               means of a{" "}
               <span className="text-teal-500">short-lived-access-token</span>.
             </p>
-            <div className="flex justify-center gap-5 py-3">
+            <div className="md:flex justify-center gap-5 py-3">
               <div className=" mx-auto shadow-lg rounded-xl dark:m-w-3px ">
                 <Image
                   className="mx-auto my-12 py-12 pl-6 pr-6 rounded-xl "
@@ -129,7 +129,7 @@ export default function Home() {
                 />
                 <p className="py-15 pl-3 my-3 dark:text-white">
                   <span className="text-teal-500 ">handleAuth</span> function
-                  created to handle Instagram's authentication process via{" "}
+                  created to handle Instagram's authentication process via
                   <span className="text-teal-500">
                     string-interpolated query parameters.
                   </span>
@@ -145,8 +145,8 @@ export default function Home() {
                 <p className="py-3 pl-3 pr-3 dark:text-white">
                   <span className="text-teal-500">handleRedirect</span> function
                   used after authentication is complete, authorization code
-                  exhanged for{" "}
-                  <span className="text-teal-500">access token</span>,{" "}
+                  exhanged for
+                  <span className="text-teal-500">access token</span>,
                   <span className="text-teal-500">useEffect</span> hook used to
                   redirect back to our application.
                 </p>
@@ -171,10 +171,10 @@ export default function Home() {
           </div>
         </section>
 
-        <p className=" text-xs text-center text-white mt-12 ">
-          Created by <span className="text-teal-500">learning</span>{" "}
-          <span className="text-teal-500">Next.js</span> and{" "}
-          <span className="text-teal-500">Tailwind</span>
+        <p className=" text-xs text-center text-gray-900 dark:text-white mt-12 ">
+          Created by <span className="text-teal-500">learning</span>
+          <span className="text-teal-500">Next.js</span> and
+          <span className="text-teal-500"> Tailwind</span>
         </p>
       </main>
     </div>
