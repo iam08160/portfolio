@@ -123,7 +123,7 @@ export default function Home() {
               <div className=" mx-auto shadow-lg rounded-xl dark:m-w-3px ">
                 <Image
                   className="mx-auto my-12 py-12 pl-6 pr-6 rounded-xl "
-                  src="/upload.png"
+                  src="/upload.PNG"
                   width="300"
                   height="300"
                 />
@@ -138,7 +138,7 @@ export default function Home() {
               <div className=" mx-auto shadow-lg rounded-xl">
                 <Image
                   className="mx-auto rounded-xl"
-                  src="/insta.png"
+                  src="/insta.PNG"
                   width="180"
                   height="180"
                 />
