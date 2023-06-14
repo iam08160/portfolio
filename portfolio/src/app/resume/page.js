@@ -41,8 +41,8 @@ export default function Page() {
           problem-solver with a passion for lifelong learning and development.
         </p>
 
-        <h3 className="text-xl font-bold my-4">EDUCATION</h3>
-        <ul className="pl-6 mb-8">
+        <h3 className="text-xl font-bold my-4 sm:text-center">EDUCATION</h3>
+        <ul className="pl-6 mb-8 sm:text-center">
           <li>Software Development Certificate | Upright Education - 2023</li>
           <li>WSET Level 2 Certificate - 2018</li>
           <li>B.S Music Business and Industry | Lyndon State College - 2017</li>
@@ -90,7 +90,7 @@ export default function Page() {
 
         <h3 className="text-xl font-bold mb-4 my-10">TECHNICAL PROJECTS</h3>
         <ul className="pl-6 mb-8">
-          <li>
+          <li className="sm:text-center">
             <h4 className="font-bold">
               Project Manager/Software Developer | Cosmable | April 2023
             </h4>

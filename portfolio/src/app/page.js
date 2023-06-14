@@ -8,8 +8,8 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
   return (
     <div className={darkMode ? "dark" : ""}>
-      <main className="bg-white px-10 md:px-20 lg:px-30 dark:bg-gray-900">
-        <section className="h-screen">
+      <main className="bg-white px-10 md:px-20 lg:px-30 sm:px-10 dark:bg-gray-900">
+        <section className="min-h-full">
           <nav className="py-10  mb-12 flex justify-between">
             <h1 className="text-xl dark:text-white">developedbyIan</h1>
             <ul className="flex items-center">
@@ -29,7 +29,7 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10">
+          <div className="text-center">
             <h2 className="text-5xl py-2 text-teal-500 font-medium md:text-6xl">
               Ian MacKenzie
             </h2>
@@ -51,7 +51,7 @@ export default function Home() {
               href="https://www.linkedin.com/in/ian-mackenzie-bb8960129/"
               target="blank"
             >
-              <AiFillLinkedin className="cursor-pointe" />
+              <AiFillLinkedin className="cursor-pointer" />
             </a>
             <a href="https://www.instagram.com/macksauce_/" target="blank">
               <AiFillInstagram className="cursor-pointer" />
@@ -59,7 +59,7 @@ export default function Home() {
           </div>
           <div>
             <Image
-              className=" rounded-full w-100 h-100 mt-20 mx-auto"
+              className=" rounded-full w-100 h-100 mt-20  mx-auto"
               src="/iandev.png"
               width="700"
               height="700"
@@ -68,9 +68,9 @@ export default function Home() {
           </div>
         </section>
         {/* Main */}
-        <section>
+        <section className="flex justify-between">
           <div>
-            <h3 className="text-3xl py-7 dark:text-white">
+            <h3 className="text-3xl pt-7 mt-10 dark:text-white">
               What I've Learned So Far
             </h3>
             <p className=" text-md py-2 leading-8 text-gray-800 dark:text-white">
