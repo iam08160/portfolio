@@ -34,11 +34,11 @@ export default function Home() {
               Ian MacKenzie
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
-              Software Developer | Sales Representative.
+              Software Developer | Sales Representative
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-7xl mx-auto dark:text-white">
               Innovative Software Developer offering experience in the full
-              software development lifecycle, from concept though delivery of
+              software development lifecycle, from concept through delivery of
               next-generation applications and customizable solutions, as well
               as over 5 years experience in B2B sales.
             </p>
@@ -106,12 +106,11 @@ export default function Home() {
               real-world capstone project during the final 4 weeks of the
               course. Our class was tasked with creating a fully functioning
               full-stack web application called Cosmable. Cosmable is designed
-              for beauticians and aesteticians in the Chicago metropolitain area
+              for beauticians and aestheticians in the Chicago metropolitain area
               to upload and showcase their work. My role in this project
               involved creating an "Upload from Instagram" feature, so users
               could upload and save photos directly from their clinics Instagram
-              page. I accomplished this by accessing
-              <span className="text-teal-500">
+              page. I accomplished this by accessing <span className="text-teal-500">
                 Instagram's Basic Display API
               </span>{" "}
               to
@@ -129,10 +128,7 @@ export default function Home() {
                 />
                 <p className="py-15 pl-3 my-3 dark:text-white">
                   <span className="text-teal-500 ">handleAuth</span> function
-                  created to handle Instagram's authentication process via
-                  <span className="text-teal-500">
-                    string-interpolated query parameters.
-                  </span>
+                  created to handle Instagram's authentication process via<span className="text-teal-500"> string-interpolated query parameters.</span>
                 </p>
               </div>
               <div className=" mx-auto shadow-lg rounded-xl">
@@ -146,8 +142,8 @@ export default function Home() {
                   <span className="text-teal-500">handleRedirect</span> function
                   used after authentication is complete, authorization code
                   exhanged for
-                  <span className="text-teal-500">access token</span>,
-                  <span className="text-teal-500">useEffect</span> hook used to
+                  <span className="text-teal-500"> access token</span>,
+                  <span className="text-teal-500"> useEffect</span> hook used to
                   redirect back to our application.
                 </p>
               </div>
@@ -160,8 +156,8 @@ export default function Home() {
                 />
                 <p className="py-7 dark:text-white">
                   <span className="text-teal-500">Fetch</span> used to grab
-                  user's media using
-                  <span className="text-teal-500">access-token</span>,
+                  user's media using generated
+                  <span className="text-teal-500"> access-token</span>,
                   <span className="text-teal-500"> handleSelectedMedia</span>{" "}
                   function used to select desired images and store in
                   local-storage.
@@ -173,7 +169,7 @@ export default function Home() {
 
         <p className=" text-xs text-center text-gray-900 dark:text-white mt-12 ">
           Created by <span className="text-teal-500">learning</span>
-          <span className="text-teal-500">Next.js</span> and
+          <span className="text-teal-500"> Next.js</span> and
           <span className="text-teal-500"> Tailwind</span>
         </p>
       </main>
