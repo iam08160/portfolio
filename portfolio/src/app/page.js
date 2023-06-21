@@ -174,7 +174,7 @@ export default function Home() {
               <div className=" mx-auto shadow-lg rounded-xl dark:m-w-3px ">
                 <Image
                   className="mx-auto my-12 py-12 pl-6 pr-6 rounded-xl "
-                  src="/openweatherpic.PNG"
+                  src="/openweatherpic.png"
                   width="300"
                   height="300"
                 />
