@@ -164,8 +164,53 @@ export default function Home() {
                 </p>
               </div>
             </div>
+                <h3 className="text-5xl py-10 dark:text-white">
+              Weather App
+            </h3>
+            <p className="text-md py-4 mb-4 leading-8 text-gray-800 dark:text-white">
+              A staple in any developers portfolio. Following my bootcamp, I wanted to solidify the concept of working with <span className="text-teal-500">API's</span> even further. With my existing knowledge of the <span className="text-teal-500">React framework</span>, I built this responsive weather app completely from scratch. It was the perfect project to practice <span className="text-teal-500">fetching data</span>, as well as writting comprehensive <span className="text-teal-500">functions</span> in <span className="text-teal-500">Javascript</span> to make my application run. For this project, I implemented <span className="text-teal-500">OpenWeather's API</span> in order to <span className="text-teal-500">fetch</span> multiple data points, including real time weather for any city around the world, feels like temp, humidity, wind speed, and even the high/low temperatures for the current day. For fun, I made the background of my application <span className="text-teal-500">dynamic</span>, displaying blue for colder temperatures, and red for warmer temperatures.
+            </p>
+            <div className="md:flex justify-center gap-5 py-3">
+              <div className=" mx-auto shadow-lg rounded-xl dark:m-w-3px ">
+                <Image
+                  className="mx-auto my-12 py-12 pl-6 pr-6 rounded-xl "
+                  src="/openweatherpic.png"
+                  width="300"
+                  height="300"
+                />
+                <p className="pb-8 pl-3 my-3 dark:text-white">
+                  <span className="text-teal-500">getWeatherData</span> function written for initial <span className="text-teal-500">fetch</span>. <span className="text-teal-500">formatForecast</span> and <span className="text-teal-500">formatCurrentWeather</span> functions written to handle formatting of data coming in.
+                </p>
+              </div>
+              <div className=" mx-auto shadow-lg rounded-xl">
+                <Image
+                  className="mx-auto rounded-xl py-5"
+                  src="/warm.png"
+                  width="200"
+                  height="200"
+                />
+                <p className="py-9 pl-3 pr-3 dark:text-white">
+                  Simple and Elegant <span className="text-teal-500">UI</span> design. Data displayed from <span className="text-teal-500">API</span> that shows current day conditions, button to display weather for current location, toggle for imperial and metric, as well as hourly and weekly forecasts.
+                </p>
+              </div>
+              <div className=" text-center shadow-lg rounded-xl">
+                <Image
+                  className="mx-auto rounded-xl py-5 "
+                  src="/cold.png"
+                  width="200"
+                  height="200"
+                />
+                <p className="py-8 dark:text-white">
+                  <span className="text-teal-500">tempChange</span> function written show a blue background during cold days, and a red background during warmer days, by means of <span className="text-teal-500">"if" statements</span> and <span className="text-teal-500">ternaries</span>. 
+                </p>
+              </div>
+            </div>
+            <a href="https://weather-app-beta-gilt.vercel.app/" target="blank">
+                <h2 href=""className="dark:text-white hover:text-teal-500 text-center cursor-pointer">Demo Me Here!</h2>
+                </a>
           </div>
         </section>
+        
 
         <p className=" text-xs text-center text-gray-900 dark:text-white mt-12 ">
           Created by <span className="text-teal-500">learning</span>
