@@ -26,7 +26,7 @@ export default function Page() {
         <h1 className="text-4xl font-bold mb-4">Ian MacKenzie</h1>
         <p className="text-sm my-6">
           603.504.4359 | ianmackenzie81691@gmail.com |
-          linkedin.com/in/ian-mackenzie-dev
+          linkedin.com/in/ian-mackenzie-dev | Winooski, VT
         </p>
 
         <h2 className="text-2xl font-bold my-10">
