@@ -86,6 +86,18 @@ export default function Page() {
           <div className="bg-gray-200 text-gray-800 rounded-full px-4 py-2 m-2">
             <span className="text-lg font-semibold">Linux/Unix</span>
           </div>
+          <div className="bg-gray-200 text-gray-800 rounded-full px-4 py-2 m-2">
+            <span className="text-lg font-semibold">Vercel</span>
+          </div>
+          <div className="bg-gray-200 text-gray-800 rounded-full px-4 py-2 m-2">
+            <span className="text-lg font-semibold">Tailwind</span>
+          </div>
+          <div className="bg-gray-200 text-gray-800 rounded-full px-4 py-2 m-2">
+            <span className="text-lg font-semibold">Postman</span>
+          </div>
+          <div className="bg-gray-200 text-gray-800 rounded-full px-4 py-2 m-2">
+            <span className="text-lg font-semibold">Responsive Web Design</span>
+          </div>
         </div>
 
         <h3 className="text-xl font-bold mb-4 my-10">TECHNICAL PROJECTS</h3>
@@ -123,6 +135,32 @@ export default function Page() {
         <ul className="pl-6 mb-8">
           <li>
             <h4 className="font-bold">
+              Teaching Assistant | Upright Education | June 2023 - Current 
+            </h4>
+            <ul className="">
+              <li>
+              Support instructors in delivering high-quality instruction on programming languages such as HTML, CSS, and JavaScript.
+              </li>
+              <li>
+              Assist students with understanding and applying programming concepts, troubleshooting code, and completing assignments.
+
+              </li>
+              <li>
+              Provide guidance and feedback to students during one-on-one and group sessions to enhance their learning experience.
+              </li>
+              <li>Facilitate interactive coding exercises and projects to strengthen students' practical skills and foster a collaborative learning environment.</li>
+              <li>
+              Collaborate with the instructional team to develop curriculum materials, lesson plans, and assessments that align with industry best practices.
+
+              </li>
+              
+              
+            </ul>
+          </li>
+        </ul>
+        <ul className="pl-6 mb-8">
+          <li>
+            <h4 className="font-bold">
               Sales Representative | Baker Distributing | January 2017 - January
               2023
             </h4>
@@ -152,6 +190,7 @@ export default function Page() {
                 Worked closely with the customer service team to resolve any
                 issues or concerns that customers may have had.
               </li>
+              
             </ul>
           </li>
         </ul>

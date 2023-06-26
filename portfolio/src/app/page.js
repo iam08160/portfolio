@@ -40,7 +40,7 @@ export default function Home() {
               Innovative Software Developer offering experience in the full
               software development lifecycle, from concept through delivery of
               next-generation applications and customizable solutions, as well
-              as over 5 years experience in B2B sales.
+              as over 5 years experience in B2B sales. Currently working as a Teaching Assistant for Upright Educations Software Development Bootcamps. 
             </p>
           </div>
           <div className="text-7xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
