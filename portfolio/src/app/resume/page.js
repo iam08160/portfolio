@@ -25,7 +25,7 @@ export default function Page() {
       <div className=" py-2 text-center">
         <h1 className="text-4xl font-bold mb-4">Ian MacKenzie</h1>
         <p className="text-sm my-6">
-          603.504.4359 | ianmackenzie81691@gmail.com |
+          603.504.4359 | ianmackenzie@uprighted.com |
           linkedin.com/in/ian-mackenzie-dev | Winooski, VT
         </p>
 
